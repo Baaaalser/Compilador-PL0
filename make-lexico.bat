@@ -1,9 +1,9 @@
 @echo off
-if exist analizadorlexico.obj del analizadorlexico.obj
-if exist analizadorlexico.dll del analizadorlexico.dll
-\masm32\bin\ml /c /coff analizadorlexico.asm
-\masm32\bin\Link /SUBSYSTEM:WINDOWS /DLL /DEF:analizadorlexico.def analizadorlexico.obj 
-del analizadorlexico.obj
-del analizadorlexico.exp
-dir analizadorlexico.*
+if exist analizador-lexico.obj del analizador-lexico.obj
+if exist analizador-lexico.dll del analizador-lexico.dll
+\masm32\bin\ml /c /coff analizador-lexico.asm
+\masm32\bin\Link /SUBSYSTEM:WINDOWS /DLL /DEF:analizador-lexico.def analizador-lexico.obj 
+del analizador-lexico.obj
+del analizador-lexico.exp
+dir analizador-lexico.*
 pause
