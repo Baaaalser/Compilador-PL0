@@ -1,6 +1,6 @@
 include \masm32\include\masm32rt.inc
-	includelib \masm32\compiladorompletamentefuncional\analizadorlexico.lib
-	includelib \masm32\compiladorompletamentefuncional\analizadorsintactico.lib
+	includelib analizador-lexico.lib
+	includelib analizador-sintactico.lib
 	
 	analizadorlexico proto :DWORD,:DWORD	;prototipo de la funcion en la dll analizadorlexico.dll
 	bloque 				proto	:DWORD
