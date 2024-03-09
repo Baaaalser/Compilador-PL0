@@ -4,7 +4,7 @@ option casemap:none ;case sensitive
 
 
   include \masm32\include\masm32rt.inc
-	includelib \masm32\compiladorompletamentefuncional\analizadorlexico.lib
+	includelib analizador-lexico.lib
 	
 	agregorenglon	proto
 	multiplicar		proto
