@@ -1,0 +1,21 @@
+#define IDM_OPEN 1
+#define IDM_SAVE 2
+#define IDM_EXIT 3
+#define IDM_ANALISIS 4
+
+Mimenu MENU
+{
+ POPUP "&Archivo"
+        {
+         MENUITEM "A&brir",IDM_OPEN
+         MENUITEM "&Guardar como",IDM_SAVE, GRAYED
+         MENUITEM SEPARATOR
+		 MENUITEM "&Compilar",IDM_ANALISIS GRAYED
+		 MENUITEM SEPARATOR
+         MENUITEM "&Salir",IDM_EXIT
+		} 
+		
+  
+		
+		
+}
