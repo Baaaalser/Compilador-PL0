@@ -11,7 +11,7 @@ include \masm32\include\comdlg32.inc
 includelib \masm32\lib\user32.lib
 includelib \masm32\lib\kernel32.lib
 includelib \masm32\lib\comdlg32.lib
-includelib \masm32\compiladorsemanticofuncional\analizadorsintactico.lib
+includelib analizador-sintactico.lib
 
 .const 	;definicion de constantes
 IDM_OPEN equ 1		;constantes del control menu
